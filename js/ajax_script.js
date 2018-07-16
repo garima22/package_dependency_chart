@@ -1,6 +1,6 @@
 var resp = '';
 
-function ajaxCall(params,method,path,obj,alerter,async,get_resp,referesh_browser, callback){
+function ajaxCall(params, method, path, obj, alerter, async, get_resp, referesh_browser, callback){
    if(referesh_browser==1) {
         window.location.reload();
    }
@@ -10,7 +10,7 @@ function ajaxCall(params,method,path,obj,alerter,async,get_resp,referesh_browser
    }
    
     $.ajax({
-        url: path,
+        url: path, 
         type: method,
         data: params,
         success: function(data){

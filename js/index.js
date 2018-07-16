@@ -2,9 +2,9 @@ function getChartData() {
     params="func=0";
 	ajaxCall(params,"post","index.php",null,0,false,1,0,function(data){
        data=data.split('<%SEP%>');
-        data[0] = eval('['+data[0]+']');
-		data[1] = eval('['+data[1]+']');	
-        drawChart(data[0], data[1]);
+       data[0] = eval('['+data[0]+']');
+       data[1] = eval('['+data[1]+']');	
+       drawChart(data[0], data[1]);
     });
 }    
 
