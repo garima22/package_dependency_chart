@@ -1,6 +1,6 @@
 # package_dependency_chart
 Two level pie chart for a sample npm package "create-react-app".<br/>
-index.php reads dependencies from the package folder upto two levels and renders a drilldown pie chart with the following options and data.
+<b>index.php</b> reads dependencies from the package folder upto two levels and renders a drilldown pie chart with the following options and data.
 <pre>
 $('#container').highcharts({
         chart: {
